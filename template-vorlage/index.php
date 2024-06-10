@@ -54,7 +54,9 @@ include 'helper/database_functions.php';
             } else {
                 include_once($fullUrl . ".php");
             }
-        } 
+        } else{
+            //Das was beim Index angezeigt werden soll, kommt hier rein.
+        }
     ?>
     
 </div>
