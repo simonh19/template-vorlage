@@ -5,6 +5,7 @@ if (session_id() == '') {
 include 'helper/suche.php';
 include 'helper/form_functions.php';
 include 'helper/database_functions.php';
+require_once 'conf.php';
 
 ?>
 <!DOCTYPE html>

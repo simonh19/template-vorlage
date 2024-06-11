@@ -1,8 +1,8 @@
 <?php
 $server = 'localhost:3306'; // svt. <localhost:3306
 $schema = 'bestellsystem';
-$user = 'admin';
-$pwd = 'Admin123.';
+$user = 'root';
+$pwd = '';
 
 try {
     $conn = new PDO('mysql:host=' .$server.';dbname='.$schema.';charset=utf8',$user, $pwd);
